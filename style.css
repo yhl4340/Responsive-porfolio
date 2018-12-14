@@ -1,0 +1,204 @@
+body {
+  background: #4aaaa5;
+  color: #777777;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+h1,
+h2 {
+  color: #4aaaa5;
+  font-family: "Georgia", Times, Times New Roman, serif;
+}
+.header,
+.main,
+.footer {
+  margin: 10px;
+}
+.header {
+  background: #ffffff;
+  border: #cccccc;
+  height: 50px;
+}
+h1 {
+  margin-left: 400px;
+  display: inline;
+  background: white;
+  padding: 30px;
+}
+.navbar {
+  float: right;
+  background: pink;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+.current {
+  margin-left: 1020px;
+}
+nav li {
+  display: inline;
+  margin: 10px;
+}
+nav li a:hover {
+  color: red;
+}
+/* .full{
+    background-image: url("img/light-veneer.png");
+    width: 100%;
+    height: 75%;
+    z-index: 1;
+    position: absolute;
+    background:purple;
+    
+} */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.side {
+  flex: 30%;
+  background: red;
+  float: left;
+  position: relative;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.side h2 {
+  font-weight: bold;
+  text-align: center;
+}
+.main {
+  flex: 60%;
+  background: white;
+  float: right;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.main h3 {
+  margin-top: 100px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.side img {
+  width: 300px;
+  padding: 10px;
+  display: block;
+  margin: 0px auto;
+}
+/* section.content{
+    width:960px;
+    background: #ffffff;
+    border: #dddddd;
+    z-index: 3;
+    position: relative;
+    margin-left: 400px;
+    margin-top:70px;
+    padding:10px 20px;
+    background:yellow;
+} */
+.footer {
+  height: 40px;
+  margin-top: 170px;
+  position: relative;
+  clear: both;
+  background: #160303;
+  color: white;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+
+  /* <!--finished reworking html for index--> */
+} /*css for porfolio*/
+section.content2 {
+  width: 30%;
+  background: #ffffff;
+  border: #dddddd;
+  z-index: 3;
+  height: 65%;
+  position: relative;
+  margin-left: 460px;
+  margin-top: 70px;
+  padding: 20px 20px;
+}
+.pic {
+  float: left;
+  overflow: auto;
+}
+div img {
+  margin-left: 20px;
+}
+.img {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  float: left;
+  overflow: clear;
+}
+a.caption {
+  position: absolute;
+  background: orange;
+  margin-top: 50px;
+  margin-left: -119px;
+  width: 50%;
+}
+
+/*css for contact*/
+section.content1 {
+  width: 40%;
+  background: #ffffff;
+  border: #dddddd;
+  z-index: 3;
+  position: relative;
+  margin-left: 400px;
+  margin-top: 70px;
+  padding: 20px 20px;
+}
+h2,
+form > p,
+form > input,
+form > textarea {
+  margin-left: 10px;
+  margin-top: 3px;
+}
+form > input {
+  width: 100%;
+}
+form > input.submit {
+  background: #4aaaa5;
+  color: white;
+  width: 20%;
+}
+form > textarea {
+  width: 100%;
+  height: 90px;
+}
+/*media q*/
+
+@media screen and (max-width: 960px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+  .header {
+    position: static;
+    width: 100%;
+  }
+  .row {
+    width: 100%;
+  }
+  h1 {
+    margin-left: 0px;
+  }
+  .side,
+  .main {
+    float: none;
+    margin: auto;
+  }
+  .main h3 {
+    font-weight: normal;
+    margin-top: 5px;
+  }
+  .footer {
+    margin-top: 20px;
+  }
+}
+/* finished media q for index */
