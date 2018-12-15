@@ -201,18 +201,18 @@ form > textarea {
     margin-top: 20px;
   }
 
-/* finished media q for index */
+  /* finished media q for index */
 
-section.content1{
-  float:none;
-  width:100%;
- 
-}
-h2,
-form > p,
-form > input,
-form > textarea {
-margin:0px auto;
-width:96%;
-}
+  section.content1 {
+    float: none;
+    width: 100%;
+  }
+  form > p,
+  form > input,
+  form > textarea {
+    margin: auto;
+    width: 96%;
+    float: none;
+    margin-left: 10px;
+  }
 }
