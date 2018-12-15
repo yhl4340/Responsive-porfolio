@@ -49,7 +49,7 @@ nav li a:hover {
   flex-wrap: wrap;
 }
 .side {
-  flex: 30%;
+   flex: 30%; 
    background: white; 
   float: left;
   position: relative;
@@ -61,7 +61,7 @@ nav li a:hover {
   text-align: center;
 }
 .main {
-  flex: 60%;
+  width: 960px; 
   background: white;
   float: right;
   position: relative;
@@ -76,9 +76,11 @@ nav li a:hover {
   line-height: 1.2rem;
   letter-spacing: 2px;
   text-indent: 10px;
+ 
+  
 }
 .side img {
-  width: 300px;
+ 
   padding: 10px;
   display: block;
   margin: 0px auto;
