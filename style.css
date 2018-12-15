@@ -7,6 +7,10 @@ h1,
 h2 {
   color: #4aaaa5;
   font-family: "Georgia", Times, Times New Roman, serif;
+  font-size: 18px;
+  line-height: 1.3rem;
+  letter-spacing: 2px;
+
 }
 .header,
 .main,
@@ -46,7 +50,7 @@ nav li a:hover {
 }
 .side {
   flex: 30%;
-  background: red;
+   background: white; 
   float: left;
   position: relative;
   margin-left: 50px;
@@ -68,6 +72,10 @@ nav li a:hover {
   margin-top: 100px;
   font-weight: bold;
   margin-left: 20px;
+  font-size: 16px;
+  line-height: 1.2rem;
+  letter-spacing: 2px;
+  text-indent: 10px;
 }
 .side img {
   width: 300px;
@@ -178,7 +186,6 @@ form > textarea {
   .side,
   .main {
     float: none;
-
     margin: auto 5px auto 5px;
   }
   .side h2 {
