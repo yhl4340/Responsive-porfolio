@@ -107,12 +107,12 @@ nav li a:hover {
 
   /* <!--finished reworking html for index--> */
 } /*css for porfolio*/
-section.content2 {
+div.content2 {
   width: 30%;
   background: #ffffff;
   border: #dddddd;
   z-index: 3;
-  height: 65%;
+  height: 100%;
   position: relative;
   margin-left: 460px;
   margin-top: 70px;
@@ -121,6 +121,7 @@ section.content2 {
 .pic {
   float: left;
   overflow: auto;
+  height: 100%;
 }
 div img {
   margin-left: 20px;
@@ -141,12 +142,12 @@ a.caption {
 }
 
 /*css for contact*/
-section.content1 {
+div.content1 {
   width: 40%;
   background: #ffffff;
   border: #dddddd;
   z-index: 3;
-  position: relative;
+
   margin-left: 400px;
   margin-top: 70px;
   padding: 20px 20px;
@@ -203,9 +204,10 @@ form > textarea {
 
   /* finished media q for index */
 
-  section.content1 {
+  div.content1 {
     float: none;
     width: 100%;
+    margin: 0px auto;
   }
   form > p,
   form > input,
@@ -213,6 +215,37 @@ form > textarea {
     margin: auto;
     width: 96%;
     float: none;
-    margin-left: 10px;
+  } /*media q for contact. revisit div (section).content1*/
+  div.content2 {
+    float: none;
+    margin: 0px auto;
+    width: 100%;
+  }
+  div.pic {
+    width: 100%;
+    float: none;
+    margin: auto;
+  }
+  img {
+    width: 450px;
+    height: 15%;
+    float: none;
+    display: block;
+    margin: 0px auto;
+    z-index: 1;
+    overflow: auto;
+  }
+  .img {
+    width: 100%;
+    margin: 15px auto;
+    float: none;
+  }
+  a.caption {
+    width: 50%;
+    margin-top: -50px;
+    margin-left: 20px;
+    display: block;
+    overflow: auto;
+    z-index: 3;
   }
 }
