@@ -10,7 +10,6 @@ h2 {
   font-size: 18px;
   line-height: 1.3rem;
   letter-spacing: 2px;
-
 }
 .header,
 .main,
@@ -49,8 +48,8 @@ nav li a:hover {
   flex-wrap: wrap;
 }
 .side {
-   flex: 30%; 
-   background: white; 
+  flex: 30%;
+  background: white;
   float: left;
   position: relative;
   margin-left: 50px;
@@ -61,7 +60,7 @@ nav li a:hover {
   text-align: center;
 }
 .main {
-  width: 960px; 
+  width: 960px;
   background: white;
   float: right;
   position: relative;
@@ -76,11 +75,8 @@ nav li a:hover {
   line-height: 1.2rem;
   letter-spacing: 2px;
   text-indent: 10px;
- 
-  
 }
 .side img {
- 
   padding: 10px;
   display: block;
   margin: 0px auto;
@@ -285,14 +281,14 @@ form > textarea {
   .main h3 {
     font-size: 14px;
     margin-top: 5px;
-    padding: 3px;
+    padding: 2px;
     text-align: justify;
   }
   .footer {
     margin-top: 15px;
   }
 
-  /*med q for contat*/
+  /*med q for contact*/
   div.content1 {
     float: none;
     width: 100%;
@@ -358,8 +354,10 @@ form > textarea {
     margin: auto;
   }
   .main h3 {
-    font-weight: normal;
+    padding: 30px;
     margin-top: 5px;
+    margin-left: -22px;
+    width: 96%;
   }
   .footer {
     margin-top: 20px;
