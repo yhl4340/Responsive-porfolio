@@ -211,9 +211,10 @@ form > textarea {
   form > p,
   form > input,
   form > textarea {
-    margin: auto;
+    margin:10px auto;
     width: 96%;
     float: none;
+    font-size:20px;
   }
 
   /*media q for porfolio */
@@ -297,9 +298,10 @@ form > textarea {
   form > p,
   form > input,
   form > textarea {
-    margin: auto;
+    margin: 8px auto;
     width: 96%;
     float: none;
+    font-size:18px;
   }
 
   /*media q for porfolio */
@@ -373,9 +375,10 @@ form > textarea {
   form > p,
   form > input,
   form > textarea {
-    margin: auto;
+    margin: 6px auto;
     width: 96%;
     float: none;
+
   } /*media q for contact. revisit div (section).content1*/
 
   /*med for porfolio*/
