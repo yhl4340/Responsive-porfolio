@@ -190,6 +190,9 @@ form > textarea {
     font-size: 20px;
     font-weight: bold;
   }
+  .side img {
+    width: 85%;
+  }
   .main h3 {
     text-indent: 20px;
     font-size: 16px;
@@ -211,10 +214,10 @@ form > textarea {
   form > p,
   form > input,
   form > textarea {
-    margin:10px auto;
+    margin: 10px auto;
     width: 96%;
     float: none;
-    font-size:20px;
+    font-size: 20px;
   }
 
   /*media q for porfolio */
@@ -230,7 +233,7 @@ form > textarea {
     margin: auto;
   }
   img {
-    width: 100%;
+    width: 90%;
     height: 4%;
     float: none;
     display: block;
@@ -279,6 +282,9 @@ form > textarea {
     font-size: 18px;
     font-weight: bold;
   }
+  .side img {
+    width: 80%;
+  }
   .main h3 {
     font-size: 14px;
     margin-top: 5px;
@@ -301,7 +307,7 @@ form > textarea {
     margin: 8px auto;
     width: 96%;
     float: none;
-    font-size:18px;
+    font-size: 18px;
   }
 
   /*media q for porfolio */
@@ -316,7 +322,7 @@ form > textarea {
     margin: auto;
   }
   img {
-    width: 100%;
+    width: 80%;
     height: 15%;
     float: none;
     display: block;
@@ -378,7 +384,6 @@ form > textarea {
     margin: 6px auto;
     width: 96%;
     float: none;
-
   } /*media q for contact. revisit div (section).content1*/
 
   /*med for porfolio*/
